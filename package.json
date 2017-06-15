@@ -1,0 +1,35 @@
+{
+  "name": "bd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.ts",
+  "dependencies": {
+    "@types/bluebird": "^3.5.2",
+    "@types/fs-extra": "^3.0.0",
+    "@types/fs-promise": "^1.0.3",
+    "@types/he": "^0.5.29",
+    "@types/mysql": "0.0.31",
+    "@types/request-promise-native": "^1.0.2",
+    "@types/underscore": "^1.8.0",
+    "async": "^2.3.0",
+    "cheerio": "^0.22.0",
+    "fs-extra": "^3.0.1",
+    "fs-promise": "^2.0.2",
+    "he": "^1.1.1",
+    "mysql": "^2.13.0",
+    "promise-mysql": "^3.0.1",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.8",
+    "buffer-split": "^1.0.0",
+    "unicode-escape": "^0.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
