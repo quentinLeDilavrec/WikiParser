@@ -34,7 +34,7 @@ Later I will think about a way to implement those more cleanly.
 
 ### easy first, the json (tree) to sql (table) converter
 
-The basics are just a recursive function that for each node in the tree return an array that associate the current node name to each of his children
+The basics are just a recursive function that for each node in the tree return an array that associate the current node name to each one of his children
 
 ```ts
 let rec = (n:Noeud) => n.child.map(x=>
@@ -52,6 +52,6 @@ To describe this function we can say that it behave like this:
 * add to child all the element given by the recursive call that take the next element and the level+1 then concat to the another recursive call if the current element is lower by one
 * process the current element with an auxiliary function if the current element isn't a hierachical element
 
-### the database feeding
+### The database feeding
 
 Nearly just a big promise that will pick some links in your table then parse and finally put the new data in the table
