@@ -12,7 +12,7 @@ my way out of this was to start with a general purpose table that show up links 
 
 ## Just parse a page or get the intermediate format
 
-the itermediate format is in json, it's nearly the same as the table
+The itermediate format is in json, it's nearly the same as the table
 but here data is displayed as tree.
 
 Following this:
